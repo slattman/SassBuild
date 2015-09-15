@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ ===============================================================================
+ This Ant file contains targets to handle common dataload scenarios
+ ===============================================================================
+-->
+
+<project name="jegs.scss.build" default="build.scss">
+
+	<property name="sass" location="C:\WCDE_PRO70\workspace\SassBuild\bin\build.scss.bat" />
+
+	<!--
+	 Compiles scss into css
+	-->	
+	<target name="build.scss">
+		<exec failonerror="true" executable="${sass}" spawn="false" />
+	</target>
+	
+</project>
