@@ -15,7 +15,7 @@ Edit the paths to your input and output files in SassBuild/bin/build.scss.bat
 Step 4)
 Setup automation:
 
-1) Right click on the project which contains the scss files you wish to auto compile. i.e. Stores and click on properties.
+1) Right click on the project which contains the scss files you wish to auto compile. i.e. Stores, and then click on properties.
 	
 2) Select Builders from the menu and click "New…", choose Ant Builder.
 
