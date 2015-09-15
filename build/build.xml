@@ -6,7 +6,7 @@
  ===============================================================================
 -->
 
-<project name="jegs.scss.build" default="build.scss">
+<project name="sass.scss.build" default="build.scss">
 
 	<property name="sass" location="C:\WCDE_PRO70\workspace\SassBuild\bin\build.scss.bat" />
 
